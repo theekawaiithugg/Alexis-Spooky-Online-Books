@@ -1,0 +1,82 @@
+/* Base styling for the entire page */
+body {
+    background-color: #121212; /* Dark background for spooky effect */
+    color: #e0e0e0; /* Light text color for contrast */
+    font-family: 'Creepster', Arial, sans-serif; /* Add a spooky font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff6666; /* Blood-red color for the title */
+}
+
+header h3 {
+    font-size: 1.2em;
+    color: #cccccc; /* Slightly lighter text for the subtitle */
+}
+
+/* Links styling */
+a {
+    color: #39afeb; /* Ghostly blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6666; /* Change to blood-red on hover */
+    text-shadow: 0 0 5px #ff6666; /* Glowing effect on hover */
+}
+
+/* Story content styling */
+div {
+    background-color: #1e1e1e; /* Slightly lighter background for contrast */
+    border: 1px solid #444; /* Subtle border for separation */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners for a polished look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Story title links */
+div a {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div a:hover {
+    color: #ff6666; /* Blood-red on hover */
+}
+
+/* Story paragraphs */
+div p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Story images */
+div img {
+    border: 1px solid #444; /* Border around images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Footer separation */
+hr {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 40px 0;
+}
+
+/* Spooky font import */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');

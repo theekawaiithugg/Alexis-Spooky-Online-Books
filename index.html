@@ -1,0 +1,204 @@
+<!-- creste our doc type that will tell the browser what type of page and version of HTML thiis is-->
+<!DOCTYPE html>
+<!--- this is for our web application that will make stories and speak-->
+
+<!-- Creating our html tag that will contain all of our HTML code--> 
+<html>
+    <!-- Head Section-->
+    <head>
+        <!--Create a title for our page  tab-->
+        <title>Storyline Central Online Bookstore</title>
+        <!--Create a link tag that will link our CSS file-->
+        <meta charset="UTF-8">
+        <!-- set the viewport to the device width and scale so that the page is responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+        
+    </head>
+    <!--we are going to style the body tag with inline CSS-->
+    <body style="font-family: Arial, sans-serif; margin: 20px;">
+        <header>
+            <!-- Create our header tag that will contain our header content-->
+            <h1 style="text-align: center; font-size: 1.2em; color:brown">Alexis' Spooky Online Books</h1>
+            <h3> Enjoy our collection of short creepy stories, click the link purple and green link's to download them.</h3>
+        </header>
+        <!--Now lers crete our main content section-->
+        <!-- use a div tag, which stands for division, like for dividing up the page-->
+        <!-- this will be our first story link and its content-->
+        <div style = "margin-bottom: 20px;">
+            <!-- Create a link to download our first story-->
+            <a href = "#story1" onclick="downloadStory('story1');" style = "Font-size: 1.em; color:rgb(101, 60, 187) ">Download Story: The Endless Stairs</a>
+            <p id = "story1" style= "display: none;">Sam had always been curious about urban legends. While browsing a forum dedicated to local myths one evening, he stumbled upon a story about a staircase in an abandoned building on the outskirts of town. The legend claimed that anyone who climbed these stairs would never reach the top, no matter how long they climbed. Intrigued, Sam decided to investigate.
+                The building was an old, decrepit office complex, long forgotten and overgrown with ivy. The windows were shattered, and the doors hung loosely on their hinges. Armed with a flashlight and his determination, Sam stepped inside. The air was thick with dust and the scent of mildew; the only sounds were the creaking of the floorboards and the distant drip of water.
+                He found the staircase quickly enough. It was a grand, spiral staircase made of dark wood, now splintered and rotting. The legend stated that the stairs would seem endless, leading those who dared to climb them into madness. Sam, ever the skeptic, began his ascent.
+                At first, it seemed like any other staircase. He counted the steps out loud, his voice echoing in the empty building. Ten, twenty, thirty steps passed without incident. But as he continued, he noticed something unsettling. Despite climbing for hours, he remained on the same floor. The ground floor was always just below him, with its cracked tiles and broken furniture.
+                Determined to prove the legend wrong, Sam kept climbing. The air grew colder, and the darkness seemed to thicken around him. His flashlight began to flicker, casting eerie shadows on the walls. He glanced over the railing and saw only darkness below as if the bottom of the stairs had disappeared entirely.
+                Panic set in, but he pushed it aside. He had to be close to the top. He had to be. But as he climbed, the steps seemed to stretch out before him, elongating and warping. The walls around him closed in, the staircase becoming narrower with each step. His breathing grew labored, and his legs ached, but he couldn't stop.
+                Then he heard it—a faint whisper echoing through the stairwell. At first, he thought it was the wind, but the whispers grew louder as he listened, forming words that chilled him to the bone.
+                "Turn back, Sam. Turn back before it's too late."
+                He ignored the voice and continued climbing, but the whispers persisted, growing more insistent and malevolent. Faces began to appear in the darkness, twisted and ghostly, their hollow eyes following him as he climbed. He could hear their voices clearly now, a chorus of agony and despair.
+                "You'll never escape. You'll be one of us."
+                His flashlight died, plunging him into complete darkness. He felt his way up the stairs, each step more complex than the last. The whispers turned to screams, echoing in his mind, driving him to the brink of insanity. He stumbled, fell, and crawled, desperate to reach the top, to find an end to the nightmare.
+                Finally, he saw a faint light above him. Summoning the last of his strength, he pulled himself up the final steps and collapsed onto a landing. But as he looked around, he realized he was back where he started. The same broken tiles, the same cracked walls. He had climbed in a circle, trapped in an endless loop.
+                The whispers were silent now, replaced by a suffocating stillness. Sam sat on the landing, his mind broken and his spirit crushed. He knew he would never escape. The staircase had claimed him as it had claimed so many before.
+                In the days that followed, the legend of the endless stairs grew. People heard screams and whispers coming from the abandoned building, and those brave enough to investigate never returned.
+                And so, the staircase remained, a dark, twisted monument to the souls it had trapped, waiting for the next curious victim to join its endless ascent into madness.</p>
+                <img src ="endless staircase2.jpg" alt = "Book Cover" style= "width: 200px; float: right; margin-left: 20px;">
+                <br>
+                <!-- Creating a download link for the audio book-->
+                <a href = "#The Endless Stairs.mp3" onclick="downloadStory('The Endless Stairs.mp3');" style = "Font-size: 1.em; color:rgb(45, 162, 99) ">Listen to Audio Book for The Endless Stairs</a>
+
+                <p>Summary: Sam explores an abandoned building rumored to have an endless staircase. As he climbs, the stairs seem to stretch infinitely, and he hears malevolent whispers urging him to turn back. Despite his determination, Sam becomes trapped in a nightmarish loop, haunted by ghostly faces and a chilling sense of doom. He never escapes, his mind broken and his spirit lost to the staircase's curse. The legend of the endless stairs grows, claiming more victims drawn by curiosity and desperation. </p>
+            </div>
+        <!-- Create a new line to seperate visibillity of the user-->
+        <hr>
+        <!-- use a div tag, which stands for division, like for dividing up the page-->
+        <!-- this will be our first story link and its content-->
+        <div style = "margin-bottom: 20px;">
+            <!-- Create a link to download our first story-->
+            <a href = "#story2" onclick="downloadStory('story2');" style = "Font-size: 1.em; color:rgb(101, 60, 187)  ">Download Story: The Tale of Tom and the Haunted Wi-Fi!</a>
+            <p id = "story2" style= "display: none;">Once upon a time, in the quaint town of Spooksville, a young man named Tom prided himself on his skepticism. He laughed at ghost stories, scoffed at superstitions, and was convinced that the world had nothing supernatural to offer.
+
+                One rainy night, Tom received an anonymous email with the subject line "The Haunted Wi-Fi." Intrigued and amused, he opened it. The email claimed that there was a cursed Wi-Fi network in town called "SpecterNet." Legend had it that anyone connected to it would be haunted by the ghost of a tech-savvy poltergeist who used to be a software developer.
+                Tom couldn't resist. He grabbed his laptop and scanned for the network. Sure enough, there it was: "SpecterNet." Chuckling to himself, he connected to it. At first, nothing seemed out of the ordinary. He browsed the internet, watched funny cat videos, and even downloaded a few games.
+                But then, strange things started happening. His cursor began moving on its own, opening tabs to creepy websites and typing bizarre messages in chatrooms. Tom laughed, assuming it was some prank. He decided to play along and typed back, "Nice try, ghost! You're not scaring me!"
+                The ghost, undeterred, upped its game. Tom's screen flickered, and the text on his browser turned into binary code that translated to "Boo!" in ASCII. Tom laughed even harder, saying, "Wow, a ghost with coding skills. Impressive!"
+                However, the ghost had a sense of humor too. It began editing Tom's social media posts, making them hilariously embarrassing. His Facebook status changed to "I believe in unicorns and wear bunny slippers to bed!" His Instagram photos were replaced with poorly Photoshopped images of him with googly eyes and clown wigs.
+                Tom's friends were baffled and amused, sending him messages asking if he was okay. He tried to explain the situation, but the ghost intercepted his messages, adding ridiculousness to his replies. One friend received, "Help! I'm haunted by a ghost who thinks it's a stand-up comedian!"
+                Finally, Tom had enough. He unplugged his router, hoping to disconnect from the haunted Wi-Fi. But the ghost wasn't done yet. His phone started ringing with spooky, distorted versions of '80s pop songs. The final straw was when his smart fridge began dispensing ketchup instead of water.
+                Desperate, Tom decided to apologize to the ghost. He typed on his laptop, "Dear SpecterNet Ghost, I'm sorry for not believing in you. You win. Please stop haunting me."
+                
+                To his surprise, the ghost replied with a smiley face emoji and a message that said, "No hard feelings, Tom. Just wanted to have some fun. Stay spooky!"
+                
+                From that day on, Tom never doubted the supernatural again. He even left his Wi-Fi network named "SpecterNet" as a tribute to the funniest ghost he had ever (not really) met. And every Halloween, he left a digital offering of memes and funny videos for his spectral friend, just in case.</p>
+                <img src ="haunted wifi1.jpg" alt = "Book Cover" style= "width: 200px; float: right; margin-left: 20px;">
+                <br>
+                <a href = "#Haunted Wi-Fi.mp3" onclick="downloadStory('Haunted Wi-Fi.mp3');" style = "Font-size: 1.em; color:rgb(45, 162, 99) ">Listen to Audio Book for The Tale of Tom and the Haunted Wi-Fi!</a>
+
+                <!-- Create a link to download the audio book-->
+                <p>Summary:Tom, a skeptic of the supernatural, connects to a mysterious Wi-Fi network called "SpecterNet" and begins experiencing bizarre and humorous hauntings by a tech-savvy ghost. The ghost playfully edits his social media posts and disrupts his smart devices, leading to a series of embarrassing and funny incidents. In the end, Tom apologizes to the ghost, who graciously accepts his apology, and they form an unusual friendship. </p>
+        </div>
+         <!-- Create a new line to seperate visibillity of the user-->
+         <hr>
+        <!-- use a div tag, which stands for division, like for dividing up the page-->
+        <!-- this will be our first story link and its content-->
+        <div style = "margin-bottom: 20px;">
+            <!-- Create a link to download our first story-->
+            <a href = "#story3" onclick="downloadStory('story3');" style = "Font-size: 1.em; color:rgb(101, 60, 187)  ">Download Story: The Whispering Shadows of Ravenwood.</a>
+            <p id = "story3" style= "display: none;">In the shadowed depths of Ravenwood Forest was a dilapidated house that no one dared to enter. Local legend had it that the house was once home to an old woman named Eliza, who was rumored to be a witch. Children told stories of seeing her ghostly figure wandering the forest at night, her hollow eyes glowing with an eerie light.
+
+                One cold October evening, a group of teenagers, eager to prove their bravery, decided to explore the old house. Armed with flashlights and bravado, they made their way through the dense forest, the trees closing around them like skeletal hands. The wind whispered through the branches, carrying faint, unintelligible voices that seemed to grow louder as they approached the house.
+                The house loomed before them, its windows dark and empty like soulless eyes. The door creaked open with a haunting groan as if it hadn't been disturbed in centuries. Inside, the air was thick with the scent of decay and something unidentifiable but undeniably sinister.
+                As they ventured deeper into the house, their flashlights flickered, casting distorted shadows on the peeling wallpaper. They found an old journal, its pages yellowed and brittle. The writing inside was frantic and desperate, describing strange rituals and a haunting presence that tormented Eliza until her last breath. The final entry was a scrawl of terror: "She watches. She waits. She will have her revenge."
+                Suddenly, the temperature dropped, and their breath became visible. One of the teens, Sarah, felt a cold hand brush against her shoulder. She spun around, but there was nothing there. Panic set in as the whispers grew louder, now clearly chanting, "She will have her revenge."
+                They tried to leave, but the door slammed shut, trapping them inside. The house seemed to come alive, its walls pulsating and closing around them. Shadows twisted and morphed into grotesque forms, reaching out with clawed hands. The teens screamed, their flashlights falling to the floor and rolling away, casting wild light beams.
+                In the chaos, Sarah saw her reflection in a cracked mirror on the wall. But it wasn't her face staring back. It was Eliza, her hollow eyes filled with malevolent glee. Sarah's reflection began to move on its own, its mouth opening in a silent scream. The mirror shattered, and Eliza's ghostly figure emerged from the shards, her eyes burning with an unholy fire.
+                One by one, the teens vanished, their screams echoing through the house. Sarah was the last. As Eliza's cold hands closed around her throat, she realized the truth: Eliza wasn't seeking revenge. She was seeking company, souls to join her in eternal torment.
+                
+                The house in Ravenwood Forest stands empty once more, but if you listen closely on a quiet night, you can still hear the whispers of those trapped within its walls, forever lost to the darkness.
+                
+                And if you're brave—or foolish—enough to enter, you might just join them.</p>
+                <img src ="teens in haunted house.jpg" alt = "Book Cover" style= "width: 200px; float: right; margin-left: 20px;">
+                <br>
+                <a href = "#The Whispering Shadows of Ravenwood.mp3" onclick="downloadStory('The Whispering Shadows of Ravenwood.mp3');" style = "Font-size: 1.em; color:rgb(45, 162, 99) ">Listen to Audio Book for The Whispering Shadows of Ravenwood.</a>
+
+                <p>Summary: A group of teenagers ventures into a haunted house in Ravenwood Forest, where they find an old journal describing strange rituals and a haunting presence. As they explore, they are terrorized by ghostly whispers and terrifying visions. One by one, they vanish, falling victim to the vengeful spirit of Eliza, a woman who died under mysterious circumstances. The story ends with the house claiming another set of victims, their screams adding to the legend of Ravenwood.</p>
+
+        </div>
+         <!-- Create a new line to seperate visibillity of the user-->
+         <hr>
+        <!-- use a div tag, which stands for division, like for dividing up the page-->
+        <!-- this will be our first story link and its content-->
+        <div style = "margin-bottom: 20px;">
+            <!-- Create a link to download our first story-->
+            <a href = "#story4" onclick="downloadStory('story4');" style = "Font-size: 1.em; color:rgb(101, 60, 187)  ">Download Story: The Rat's Revenge</a>
+            <p id = "story4" style= "display: none;">Jerey had always been a fan of Olive Garden. The unlimited breadsticks, the hearty soups, the cozy ambiance—it was his go-to spot for comfort food. One evening, after a particularly rough day at work, Jerey treated himself to a warm bowl of minestrone soup.
+                As he settled into his favorite booth, the familiar aroma of Italian herbs and fresh bread enveloped him, providing a brief respite from his worries. The cheerful young waiter named Tony brought a steaming bowl of soup and a basket of breadsticks with a friendly smile.
+                "Enjoy your meal, sir," Tony said, giving Jerey a nod before walking away.
+                Jerey savored the first few spoonfuls, letting the warmth spread through his body. But his spoon hit something solid as he dug deeper into the bowl. Puzzled, he fished around until he pulled up a small, furry object. His heart stopped as he realized he was staring at a severed rat's foot, the tiny claws still intact.
+                Disgust and anger surged through him. He stormed to the manager, demanding an explanation. The manager, pale and trembling, apologized profusely and assured Jerey that this had never happened before. They offered him a free meal, but Jerey was too horrified to accept.
+                Determined to get justice, Jerey decided to sue Olive Garden. The news spread quickly, making headlines and causing a media frenzy. However, amidst the chaos, strange things began happening to Jerey.
+                It started with scratching noises in his apartment. At first, he dismissed them as rodents in the walls, but the sounds grew louder and more persistent. Scratching, scurrying, and faint squeaks echoed through the night, robbing him of sleep.
+                One night, as he lay in bed, exhausted but unable to sleep, he felt a sharp pain in his leg. He threw off the covers and found minor, bloody scratches on his skin as if tiny claws had raked across him. Panic set in, and he frantically searched his apartment for any sign of rats but found nothing.
+                The following day, Jerey noticed something even more disturbing. His reflection in the bathroom mirror was off. His eyes seemed darker, almost hollow, and his skin had become sickly pallor. He shrugged it off as stress, but the feeling of being watched never left him.
+                Days turned into weeks, and the haunting escalated. He would wake up to find rat footprints trailing across his kitchen counter, leading to his untouched food. His belongings were often rearranged as if tiny hands had been at work while he slept. He even heard indistinct and chilling whispers echoing through his apartment at night.
+                Desperate for answers, Jerey delved into research about curses and hauntings. He discovered an old legend about the vengeful spirit of a rat king, a monstrous creature that sought revenge on those who wronged its kind. The legend spoke of a powerful curse that could befall anyone who disturbed the rat king's descendants.
+                Jerey realized with growing horror that his encounter at Olive Garden might have awakened something ancient and malevolent. He tried to make amends, leaving food offerings and setting up tiny altars, but nothing seemed to appease the spirit.
+                One fateful night, as the scratching and whispers reached a deafening crescendo, Jerey found himself unable to move. He lay paralyzed in his bed, eyes wide with terror, as countless rats emerged from the shadows. They swarmed over him, their beady eyes glowing with an unnatural light. He felt their tiny claws digging into his flesh, their teeth gnawing at his skin.
+                In the morning, Jerey was found lying lifeless in his bed, his body covered in hundreds of tiny scratches and bites. The authorities were baffled, unable to explain the cause of death. The case was quickly closed, chalked up to a freak accident.
+                But those who knew the legend of the rat king whispered among themselves, knowing Jerey had become another victim of the rat's revenge.
+                And if you ever find yourself at Olive Garden, be sure to check your soup carefully. You never know what might be lurking beneath the surface, waiting for its chance to seek revenge.</p>
+                <img src ="ratrevrnge1.jpg" alt = "Book Cover" style= "width: 200px; float: right; margin-left: 20px;">
+                <br>
+                <a href = "#Rat Revenge.mp3" onclick="downloadStory('Rat Revenge.mp3');" style = "Font-size: 1.em; color:rgb(45, 162, 99) ">Listen to Audio Book for The Rat's Revenge.</a>
+
+                <p>Summary: Jerey finds a severed rat's foot in his soup at Olive Garden and decides to sue the restaurant. However, he soon becomes haunted by a relentless rat spirit seeking revenge. His apartment fills with eerie noises, and he is tormented by rat-like apparitions. Despite his attempts to appease the spirit, Jerey meets a horrifying end, joining the countless souls lost to the rat's curse. The story serves as a chilling reminder of the dangers lurking in seemingly ordinary places.</p>
+
+        </div>
+         <!-- Create a new line to seperate visibillity of the user-->
+         <hr>
+        <!-- use a div tag, which stands for division, like for dividing up the page-->
+        <!-- this will be our first story link and its content-->
+        <div style = "margin-bottom: 20px;">
+            <!-- Create a link to download our first story-->
+            <a href = "#story5" onclick="downloadStory('story5');" style = "Font-size: 1.em; color:rgb(101, 60, 187)  ">Download Story: The Sleepless Curse</a>
+            <p id = "story5" style= "display: none;">Lydia had always struggled with insomnia, but it had never been this bad. For the past week, she hadn't been able to sleep at all. No matter how exhausted she felt, the moment she closed her eyes, a creeping sense of dread washed over her, jolting her awake.
+
+                It all started when she moved into her new apartment. The building was old, with creaky floors and dim lighting, but the rent was affordable, and it was close to her work. She thought she could get used to the eerie atmosphere, but something about the place felt off.
+                On the first night, as she lay in bed, she heard a soft whispering sound. It was too faint to make out the words, but it felt like it was coming from inside her head. She dismissed it as her imagination and tried to sleep, but the whispering continued, growing louder and more persistent each night.
+                By the third night, Lydia was desperate for rest. She tried everything: sleeping pills, meditation, even drinking warm milk, but nothing worked. The whispers had become clearer, forming words that sent chills down her spine.
+                
+                "Stay awake, Lydia. Stay awake or suffer."
+                Exhaustion blurred the line between reality and hallucination. Shadows in her room seemed to move on their own, and she often felt a cold, invisible presence beside her bed. One night, she woke up to find herself standing in the middle of her room, staring at her reflection in the window. Her eyes were bloodshot, and her skin was pale, almost ghostly.
+                Desperate for answers, Lydia began researching the history of the building. She discovered that her apartment once belonged to a woman named Evelyn, who had been plagued by insomnia and eventually died under mysterious circumstances. Neighbors reported hearing her screams in the middle of the night, and some claimed that she had been haunted by a malevolent spirit.
+                Lydia couldn't shake the feeling that Evelyn's restless spirit was now haunting her. The whispers grew more insistent, and she started seeing glimpses of a figure in the shadows—a woman with hollow eyes and a twisted smile.
+                
+                One night, Lydia decided to confront the entity. She stayed awake, clutching a flashlight and a recording device. As the clock struck midnight, the temperature in the room dropped, and the whispers became a cacophony of voices.
+                "Stay awake, Lydia. Stay awake or suffer."
+                The figure appeared at the foot of her bed, its hollow eyes piercing through the darkness. Lydia's flashlight flickered, and she felt a cold hand grip her ankle. She tried to scream, but no sound came out. The figure leaned closer, its twisted smile growing wider.
+                "You took my place," it hissed. "Now you must stay awake, forever."
+                Lydia's vision blurred, and she felt herself slipping away. When she woke up, she was no longer in her apartment. She found herself in a dark, endless void, surrounded by whispers and shadowy figures. No matter how hard she tried, she couldn't close her eyes. The exhaustion was unbearable, but sleep was impossible.
+                In the real world, Lydia's body was found lifeless in her apartment, her eyes wide open, staring into nothingness. The coroner couldn't determine the cause of death, but the neighbors knew better, They whispered "Lydia stayed awake. To stay awake is to suffer."
+                And so, Lydia was awake, trapped in an eternal nightmare where sleep was a distant dream.</p>
+
+                <img src ="Lydia story.jpg" alt = "Book Cover" style= "width: 200px; float: right; margin-left: 20px;">
+                <br>
+                <a href = "#The Sleepless Curse.mp3" onclick="downloadStory('The Sleepless Curse.mp3');" style = "Font-size: 1.em; color:rgb(45, 162, 99)">Listen to Audio Book for The Sleepless Curse.</a>
+
+                <p>Summary: Lydia moves into a new apartment and is soon plagued by severe insomnia and terrifying whispers. She learns that the previous tenant, Evelyn, suffered a similar fate and died mysteriously. As Lydia's insomnia worsens, she encounters ghostly apparitions and feels an invisible presence. Despite her attempts to confront the entity, she becomes trapped in an eternal nightmare, unable to sleep. Lydia's body is eventually found lifeless, her spirit joining the restless souls cursed by the apartment.</p>
+
+        </div>
+         <!-- Create a new line to seperate visibillity of the user-->
+         <hr>
+        <!-- Javascript makes our webpage more like a webapplication-->
+        <!--Create a Javascript function that allows the user to download our-->
+        <script>
+            //Create a function that will take the story ID and download the story as a text file for our users
+            function downloadStory(storyId){
+                if (storyId.endsWith('.mp3')) {
+                    // Handle audio file download
+                    var link = document.createElement("a");
+                    //Create a new URL link object that will contain the audio file
+                    link.href = storyId;
+                    //set the link's download attribute to the title of the story
+                    link.download = storyId;
+                    link.click();
+                } else {
+                    //Get the story content using the story ID for that story.
+                    var storyContent = document.getElementById(storyId).innerText;
+                    //Create a new blob object that will contain the story content
+                    var blob = new Blob([storyContent], {type:"text/plain"});
+                    //Create a new URL link object that will contain the blob object
+                    var link = document.createElement("a");
+                    // Set the link's href attribute to the URL object that contains the blob object
+                    link.href = URL.createObjectURL(blob);
+                    //set the link's download attribute to the title of the story
+                    link.download = storyId + ".txt";
+                    // Now let's programically click the link to download s the story as a text fil;e. the user is not doing this manually
+                    // mptice the is automagically downloads the story as a text file, the user is not doing this manually
+                    link.click();}
+                    }
+        </script>
+    </body>
+</html>
